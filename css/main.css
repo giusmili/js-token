@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'Roboto Slab',sans-serif;
+    margin: 0;
+    background-color: #2b2a33;
+    color: #fff;
+}
+h1,h2,h3,p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+/* theme */
+header h1{
+    line-height: 7.0rem;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+header .logo-primary{
+    vertical-align: -.1rem;
+}
+aside{
+    margin: 1em auto;
+    max-width: 80rem;
+}
+section{
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+section h2{
+    line-height: 4.5rem;
+}
+section form *{
+    display: block;
+    width: 100%;
+    
+}
+
+section fieldset{
+    margin-top: 5rem;
+}
+
+section form .input-sm, :is(label), section form .btn{
+    line-height: 3.5rem;
+}
+
+section form textarea{
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+section form .input-sm:focus:not(input[type="submit"]){
+    border: solid .1rem #d71414;
+    box-shadow: 0 0 1rem rgba(33, 33, 33, .3);
+}
+section form .btn{
+    width: 30%;
+    font-size: inherit;
+}
+section form .btn-primary{
+    margin-top: 1rem;
+}
+footer *{
+    text-align: center;
+}
+figcaption p, :is(a){
+    color: #fff;
+}
