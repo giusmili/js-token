@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", e =>{
     //objet fomulaire
     // Fonction de génération d'un token aléatoire
     const btn =  document.getElementById('loginForm')
+    //import here
     const generateToken = () => {
       const characters = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.cThIIoDvwdueQB468K5xDc5633seEFoqwxjF_xSJyQQ';
       let token = '';
